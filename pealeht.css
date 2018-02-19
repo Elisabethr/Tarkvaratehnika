@@ -1,3 +1,24 @@
 .main_header_list{
     display: inline;
 }
+
+.main_header_logo{
+    display:block;
+}
+
+.nav_header_button{
+}
+
+.main_content_section_left{
+    position: absolute;
+    width: 15%;
+}
+
+.main_content_section_right{
+    position: absolute;
+    margin-left: 15%;
+}
+
+.sidebar_list{
+    list-style: none;
+}
