@@ -1,0 +1,39 @@
+<DOCTIPE html>
+<html>
+<head>
+</head>
+
+<body>
+  <form ref="uploadForm" submit.delegate="upload()">
+
+    <div>
+      <label>Toote nimi</label>
+      <input type="text" name="name" value.bind="name"/>
+    </div>
+
+    <div>
+      <label>Toote hind</label>
+      <input type="text" name="price" value.bind="price"/>
+    </div>
+
+    <div>
+      <label>Toote kirjeldus</label>
+      <textarea rows="5" name="description" value.bind="description"></textarea>
+    </div>
+
+    <div>
+      <label>Toote pilt</label>
+      <input type="file" name="picture" files.bind="picture"/>
+    </div>
+
+    <button type="submit" class="button">
+      Upload
+    </button>
+  </form>
+
+</body>
+
+
+
+
+</html>
