@@ -1,24 +1,57 @@
 .main_header_list{
-    display: inline;
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-decoration: none;
 }
 
-.main_header_logo{
-    display:block;
+.main_header{
+    padding: 0px;
+    overflow: auto;
+    background-color: #595c63;
 }
 
-.nav_header_button{
+.main_header_list_logo{
+ float: left;
+}
+
+.main_header_list_functions{
+    float:right;
+}
+
+.main_content_section{
+    overflow: auto;
 }
 
 .main_content_section_left{
-    position: absolute;
     width: 15%;
+    float: left;
 }
 
 .main_content_section_right{
-    position: absolute;
     margin-left: 15%;
 }
 
 .sidebar_list{
     list-style: none;
+}
+
+div{
+    border: 1px solid gray;
+}
+.viewitem_content_section_left{
+    width: 50%;
+    position:absolute;
+
+}
+
+.viewitem_content_section_right{
+    width: 50%;
+    margin-left: 50%;
+    position: absolute;
+}
+
+.search_header{
+    padding: 10px;
+    background-color: #ccd3e0;
 }
